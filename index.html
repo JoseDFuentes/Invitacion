@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kandy y Jose</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
+    
+</head>
+<body>
+    
+    <header>
+        <div class="header--title--container">
+            <h1 class="header--guess"></h1>
+            <img src="./assets/img/header-img.png" alt="Kandy y Jose">
+            <h1 class="header--title">Kandy y Jose</h1>
+            <h2 class="header--subtitle">Quieren compartir algo muy especial</h2>
+        </div>
+    </header>
+    <main>
+        <section class="main-schedule-container">
+            <div class="main-schedule--title">
+                <h2>Todo empieza con un Sí</h2>
+                <p>No nos estábamos buscando, pero encontrarnos fue algo de lo mejor que nos ha pasado en esta vida</p>
+                <div class="main-slider-container">
+                    <button id="prevButton"><</button>
+                    <div class="main-schedule--imgs">
+                        <!--div class="img-move1"></div>
+                        <div-- class="img-move2"></div-->
+                        <img class="img-slide" src="./assets/img/main-commit.jpg" alt="">
+                        <img class="img-slide" src="./assets/img/main-commit2.jpg" alt="">
+                        <img class="img-slide" src="./assets/img/main-commit3.jpg" alt="">
+                        <img class="img-slide" src="./assets/img/main-commit4.jpg" alt="">
+                        <img class="img-slide" src="./assets/img/main-commit5.jpg" alt="">
+                    </div>
+                    <button id="nextButton">></button>
+                </div>
+                
+                
+            </div>
+            <div class="main-schedule--body">
+                <span class="calendar"></span>
+                <p class="main-schedule--dayOfWeek">Sábado</p>
+                <p class="main-schedule--day">16</p>
+                <p class="main-schedule--month">Noviembre</p>
+                <p class="main-schedule--year">2024</p>
+            </div>
+
+        </section>
+        <section class="main-invitation-container">
+            <div class="main-invitation--title">
+
+            </div>
+            <section class="main-invitationCard-container">
+                <article class="invitation-party--card">
+                    <h2 class="invitation-card--title">Ceremonia</h2>
+                    <span class="clock"></span>
+                    <p class="invitation-card--time">3:00 p.m.</p>
+                    <span class="location-ceremony"></span>
+                    <p class="invitation-card--location">Iglesia parroquial <br />San Pedro Sacatepéquez <br />San Marcos</p>
+                </article>
+                <article class="invitation-party--card">
+                    <h2 class="invitation-card--title">Recepción</h2>
+                    <span class="clock"></span>
+                    <p class="invitation-card--time">5:00 p.m.</p>
+                    <span class="location-party"></span>
+                    <p class="invitation-card--location">Hotel Miralvalle</p>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="./db.js" type="module"></script>
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.main-invitationCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.main-invitationCard-container .invitation-party--card {
+    margin: 15px 30px
+}

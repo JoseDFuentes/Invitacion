@@ -1,0 +1,281 @@
+:root {
+    --green-pale: #C4C4C4;
+    --dark-green: #2E5B2E;
+    --medium-dark-green: #6F8F6F;
+    --green-emerald: #9CEAC3;
+    --sand-medium: #94745B;
+    --sand-light: #FBE8CC;
+    --sand-dark: #533723;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+    --warm-black: #282623;
+    --black: #201e1c;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    text-align: center;
+    background: linear-gradient(360deg, var(--medium-dark-green) 16.69%, var(--dark-green) 100%);
+}
+
+header img {
+    width: 50%;
+    max-width: 300px;
+    margin-top: 60px;
+    align-self: center;
+    
+}
+
+.header--title--container h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.header--title--container h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    padding-bottom: 20px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    font-family: 'DM Sans', 'sans-serif';
+}
+
+.main-schedule-container {
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: var(--sand-medium);
+}
+
+.main-schedule-container .main-schedule--title {
+    overflow: hidden;
+}
+
+.main-schedule-container .main-schedule--title h2 {
+    line-height: 2.6rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.main-schedule-container .main-schedule--title p {
+    line-height: 1.8rem;
+    padding: 4rem 1rem;
+    font-size: 1.6rem;
+}
+
+.main-slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-schedule-container .main-schedule--title .main-schedule--imgs{
+    display: flex;
+    height: 200px;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    overflow-x: scroll;
+    /*overscroll-behavior-x: contain;*/
+    scroll-snap-type: proximity;
+    width: 320px;
+}
+
+
+
+
+.main-schedule-container .main-schedule--title .main-schedule--imgs img{
+    min-width: 100%;
+    background-repeat: no-repeat;
+    
+    transition: transform 0.5s ease;
+}
+
+.main-schedule-container .main-schedule--title .main-schedule--imgs > div{
+
+    height: 200px;
+    width: 2526px;
+    background: url(./assets/img/slider-banner1.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+    
+}
+
+.main-slider-container button {
+    position: relative;
+    background-color: var(--sand-light);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 45%;
+}
+
+#prevButton {
+    left: 15px;
+}
+
+#nextButton {
+    left: -15px;
+}
+
+.main-schedule-container .main-schedule--title .main-schedule--imgs .img-move1 {
+    animation: moveSlideshow 12s linear infinite;
+}
+
+.main-schedule-container .main-schedule--title .main-schedule--imgs .img-move2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -200px;
+    animation: moveSlideshow 15s linear infinite;
+}
+
+.main-schedule--title .main-schedule--imgs:hover .img-move2 {
+    opacity: 1;
+}
+
+
+@keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  }
+
+.main-schedule-container .main-schedule--body{
+    padding-top: 40px;
+    color: var(--sand-light);
+    padding-bottom: 30px;
+}
+
+.main-schedule-container .calendar {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    background-image: url('./assets/icons/calendar-ico.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-schedule-container .main-schedule--dayOfWeek {
+    font-size: 7rem;
+}
+
+.main-schedule-container .main-schedule--day {
+    font-size: 17rem;
+    line-height: 13rem;
+}
+
+.main-schedule-container .main-schedule--month {
+    font-size: 5rem;
+}
+
+.main-schedule-container .main-schedule--year {
+    font-size: 8rem;
+    line-height: 5rem;
+}
+
+.main-invitationCard-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: var(--sand-dark);
+    background-color: var(--sand-medium);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.main-invitationCard-container .invitation-party--card {
+    width: 80%;
+    margin: 15px auto;
+    height: 300px;
+    padding: 15px;
+    background-color: #C7AD93;
+    border-radius: 10px;
+    min-width: 288px;
+    max-width: 320px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+}
+
+.main-invitationCard-container .clock {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    background-image: url('./assets/icons/time-ico.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-invitationCard-container .location-ceremony {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    background-image: url('./assets/icons/location-ico.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.main-invitationCard-container .location-party {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    background-image: url('./assets/icons/location-ico.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.main-invitationCard-container .invitation-card--title{
+    font-size: 3rem;
+}
+
+.main-invitationCard-container .invitation-card--time{
+    font-size: 2rem;
+}
+
+.main-invitationCard-container .invitation-card--location{
+    font-size: 2rem;
+}
