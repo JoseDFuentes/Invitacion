@@ -331,11 +331,14 @@ main {
     padding-top: 5px;
     text-align: left;
     font-size: 1.8rem;
+    color: var(--sand-dark);
+    padding-bottom: 15px;
 }
 
 .main-party-info-card {
     width: 80%;
-    margin: 15px auto;
+    margin: 0 auto;
+    margin-top: 15px;
     height: auto;
     padding: 15px;
     background-color: #C7AD93;
@@ -371,7 +374,30 @@ main {
 footer {
     display: flex;
     width: 100%;
-    height: 150px;
+    height: 200px;
     background-color: var(--sand-dark);
+    font-family: 'DM Sans', 'sans-serif';
+}
 
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items:  center;
+}
+
+footer .left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+    list-style-type: none;
+}
+
+.left li {
+    margin: 10px 0;
+}
+
+.left a {
+    text-decoration: none;
+    color: var(--just-white);
 }
