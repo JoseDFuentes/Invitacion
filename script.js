@@ -33,7 +33,9 @@ async function init() {
             }
 
 
-        } else {
+        }  
+        
+        if (currentIndex <= 0) {
             prevBtn.style.visibility = 'hidden';
         }
         
@@ -51,7 +53,8 @@ async function init() {
             }
 
 
-        } else {
+        } 
+        if (currentIndex >= imgs.length - 1) {
             nextBtn.style.visibility = 'hidden';
         }
     });
