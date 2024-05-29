@@ -1,64 +1,90 @@
-//import {conectarDB} from "./db.js";
+//import {db} from './db.js';
 
 let locationIcon = document.querySelector(".location-ceremony");
 let locationIconParty = document.querySelector(".location-party");
 let invitadoEncabezado = document.querySelector(".header--guess");
 const imgContainer = document.querySelector('.main-schedule--imgs');
 const imgs = document.querySelectorAll(".img-slide");
-const prevBtn = document.querySelector('#prevButton');
-const nextBtn = document.querySelector('#nextButton');
-let currentIndex = 3; 
+const prevBtn = document.querySelector('.prevButton');
+const nextBtn = document.querySelector('.nextButton');
+const sendWhatsApp = document.querySelector('.main-confirmation-whatsapp');
+const confirmacionTexto = document.querySelector("#confirmation-invitation");
+const linkConfirmacion = document.querySelector(".main-confirmation-whatsapp");
 
-window.onload = () => {
+let currentIndex = 2; 
+let invitadoSeleccionado;
+
+document.addEventListener('DOMContentLoaded', init);
+
+async function init() {
     locationIcon.addEventListener('click', () => openLocation(14.9659009,-91.7768513)); //window.location.href = "https://maps.app.goo.gl/AXUpL6tafX7AVY7e6");
     locationIconParty.addEventListener('click', () => openLocation(14.9663375,-91.7836988));//window.location.href = "https://maps.app.goo.gl/6VmP8dWQTZ9AycQe6");
-    colocarNombreInvitado();
+    await colocarNombreInvitado();
+    await colocarTextoConfirmacion();
     //obtenerDatosDB();
 
     prevBtn.addEventListener('click', () => {
         console.log(currentIndex);
         if (currentIndex > 0) {
+            updateImagePosition(currentIndex, currentIndex-1);
             currentIndex--;
-            updateImagePosition();
         }
     });
     
     nextBtn.addEventListener('click', () => {
         console.log(currentIndex);
-        console.log(imgs);
+        
         if (currentIndex < imgs.length - 1) {
+            updateImagePosition(currentIndex, currentIndex+1);
             currentIndex++;
-            updateImagePosition();
         }
     });
 
-    updateImagePosition();
+    
+    
+
+    
 };
 
 
-function clickImagen() {
+
+function setWhatsappHref()
+{
+
+}
+
+function updateImagePosition(curPosition, newPosition) {
+    console.log(imgs[curPosition]);
+    console.log(imgs[newPosition]);
+    imgs[curPosition].classList.add("img-hidden");
+    imgs[curPosition].classList.remove("img-show");
+    
+    imgs[newPosition].classList.remove("img-hidden");
+    imgs[newPosition].classList.add("img-show");
+    
     
 }
 
-function updateImagePosition() {
-    const offset = -currentIndex * 100;
-    imgContainer.style.transform = `translateX(${offset}%)`;
-}
 
 
 
+async function obtenerDatosDB() {
 
-function obtenerDatosDB(){
-    let connection = conectarDB();
-    let buery = "Select * from Invitados";
-    connection.query(buery, function(error, result, fields) {
-        if (error) {
-            console.log(error);
-        } else {
-            console.log(result);
-        }
-    })
-    connection.end();
+    const filename = "./data/invitados.json";
+
+    const ret = await fetch (filename)
+        .then((response)=> {
+            if (!response.ok) {
+                throw new Error("Error al cargar el archivo");
+            }
+
+            const data = response.json();
+            return data;
+        }).then ( data => {
+            return data;
+        }).catch((error)=> { console.log(error)});
+
+   return ret;
 
 }
 
@@ -77,13 +103,38 @@ function openLocation(latitude, longitude) {
     }
 }
 
-function colocarNombreInvitado()
+async function colocarTextoConfirmacion() {
+
+    confirmacionTexto.textContent = `Agradecemos que puedas confirmar tu asistencia a ${invitadoSeleccionado.Contacto}, enviando un mensaje`;
+    const num2Conf = invitadoSeleccionado.Contacto == "Jose" ? "50252386656" : "50236671884";
+
+    const hiPrefix = invitadoSeleccionado.Personas > 1 ? "te+saludan" : "te+saluda";
+    const hiConfPrefix = invitadoSeleccionado.Personas > 1 ? "queriamos+confirmar+nuestra" : "queria+confirmar+mi";
+
+    linkConfirmacion.href = `https://wa.me/${num2Conf}?text=Hola+${invitadoSeleccionado.Contacto},+${hiPrefix}+${invitadoSeleccionado.Nombres},+solamente+${hiConfPrefix}+asistencia+a+la+boda.+Un+saludo+#ConfirmacionBoda`;
+
+    //linkConfirmacion.textContent="Enviar Mensaje";
+
+}
+
+async function colocarNombreInvitado()
 {
 
-    let codigoInvitado = obtenerParametro('gscd');
-    let NombreInvitado = obtenerNombresInvitadosPorCodigo(codigoInvitado);
-    invitadoEncabezado.textContent = `Hola ${NombreInvitado}`;
+    const codigoInvitado = obtenerParametro('gscd');
+    const invitado = await obtenerInvitadoPorCodigo(codigoInvitado);
+    let texto;
+    if (typeof(invitado) == "undefined"){
+        texto = ", ¿Cómo estás?"
+    }
+    else
+    {
+        texto = invitado.Nombres;
+    }
 
+    invitadoSeleccionado = invitado;
+
+    invitadoEncabezado.textContent = `Hola ${texto}`;
+    
 
 }
 
@@ -111,18 +162,20 @@ function obtenerParametro(nombreParametro) {
     return null;
 }
 
-function obtenerNombresInvitadosPorCodigo(codigo)
+async function obtenerInvitadoPorCodigo(codigo)
 {
-    let InvitadosDict = {
-        1: "Patri",
-        2: "Lady",
-        3: "Keily y Ever"
-    }
 
-    let ret = InvitadosDict[codigo]
+    console.log(codigo);
+    let ret;
 
-    if (typeof(ret) == "undefined"){
-        ret = ", ¿Cómo estás?"
-    }
-    return ret;
+    const invitados = await obtenerDatosDB();
+
+    console.log(invitados);
+    
+    const invitadoSeleccionado = invitados.find((i) => i.Codigo == codigo);
+
+    return invitadoSeleccionado;
+
+    
+
 }

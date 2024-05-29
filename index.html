@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
+    
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 700px)">
     
 </head>
 <body>
@@ -28,19 +29,20 @@
                 <h2>Todo empieza con un Sí</h2>
                 <p>No nos estábamos buscando, pero encontrarnos fue algo de lo mejor que nos ha pasado en esta vida</p>
                 <div class="main-slider-container">
-                    <button id="prevButton"><</button>
+                    <div class="prevButton button"></div>
                     <div class="main-schedule--imgs">
                         <!--div class="img-move1"></div>
                         <div-- class="img-move2"></div-->
-                        <img class="img-slide" src="./assets/img/main-commit.jpg" alt="">
-                        <img class="img-slide" src="./assets/img/main-commit2.jpg" alt="">
-                        <img class="img-slide" src="./assets/img/main-commit3.jpg" alt="">
-                        <img class="img-slide" src="./assets/img/main-commit4.jpg" alt="">
-                        <img class="img-slide" src="./assets/img/main-commit5.jpg" alt="">
+                        <img class="img-slide img1 img-hidden" src="./assets/img/main-commit.jpg" alt="">
+                        <img class="img-slide img2 img-hidden" src="./assets/img/main-commit2.jpg" alt="">
+                        <img class="img-slide img3 img-show" src="./assets/img/main-commit3.jpg" alt="">
+                        <img class="img-slide img5 img-hidden" src="./assets/img/main-commit4.jpg" alt="">
+                        <img class="img-slide img6 img-hidden" src="./assets/img/main-commit5.jpg" alt="">
                     </div>
-                    <button id="nextButton">></button>
+                    
+                    <div class="nextButton button"></div>
                 </div>
-                
+              
                 
             </div>
             <div class="main-schedule--body">
@@ -73,6 +75,28 @@
                 </article>
             </section>
         </section>
+        <section class="main-confirmation-container">
+            <p id="confirmation-invitation">Agradecemos que puedas confirmar tu asistenica<br>enviando un mensaje</p>
+            <a class="main-confirmation-whatsapp" alt="Enviar un mensaje de confirmación por Whatasapp"></a>
+        </section>
+        <section class="main-party-info">
+            <article class="main-party-info-card">
+                <span class="dance"></span>
+                <h2 class="main-party-info--title">Música</h2>
+                <p class="main-party-info--description">Prepárate para pasar un buen rato bailando con la música en vivo que se ha preparado para la fiesta.</p>
+            </article>
+            <article class="main-party-info-card">
+                <span class="gift"></span>
+                <h2 class="main-party-info--title">Regalos</h2>
+                <p class="main-party-info--description">Nuestro deseo es compartir este día especial con ustedes, su asistencia es el mejor regalo, pero si sus deseos son compartir algún presente con los novios, estaremos muy agradecidos que sean en efectivo</p>
+            </article>
+            <article class="main-party-info-card">
+                <span class="child"></span>
+                <h2 class="main-party-info--title">Niños</h2>
+                <p class="main-party-info--description">La fiesta está organizada para ser disfrutada por personas lo suficientemente mayores, no podemos evitar que los niños que tienen a su cargo los acompañen, pero ya que la organización del evento no contempla la asistencia de niños, suplicamos que los adultos a cargo puedan asegurarse del bienestar de los niños y puedan asegurarse que no interfieran en los puntos centrales de la ceremonia</p>
+            </article>
+        </section>
+
     </main>
     <footer>
 

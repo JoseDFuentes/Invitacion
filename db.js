@@ -1,18 +1,26 @@
-let mysql = require('mysql');
+import mysql from 'mysql2/promise'
 
-let conectarDB = mysql.createConnection({
-    host: 'srv1352.hstgr.io',
-    user: 'u508480104_jfuentes',
-    password: 'xDq37+gNSk^mQ!;5)}\'p@W',
-    database: 'u508480104_miscdata'
-});
+const config = {
+        host: 'srv1352.hstgr.io',
+        user: 'u508480104_jfuentes',
+        password: 'xDq37+gNSk^mQ!;5)}\'p@W',
+        database: 'u508480104_miscdata'
+}
 
 
-conectarDB.connect((err) => {
-    if (err){
-        return console.error(err.message);
-    };
-    console.log('DB conectada');
-})
+const connection = await mysql.createConnection(config);
 
-export default conectarDB;
+
+
+export class db {
+
+    static async getAll()
+    {
+        const [invitados] = await connection.query('SELECT Codigo, Nombres, Confirmado, Trato, Contacto FROM Invitados');
+
+        return invitados;
+
+    }
+
+
+}

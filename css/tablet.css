@@ -8,3 +8,12 @@
 .main-invitationCard-container .invitation-party--card {
     margin: 15px 30px
 }
+
+.main-schedule-container .main-schedule--title .main-schedule--imgs{
+    height: 426px;
+    width: 640px;
+}
+
+.img-show {
+    width: 640px;
+}

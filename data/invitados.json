@@ -1,0 +1,15 @@
+[
+    {
+        "Codigo": 1,
+        "Nombres": "Rodrigo y Claudia",
+        "Personas": 2,
+        "Contacto": "Jose"
+    },
+    {
+        "Codigo": 2,
+        "Nombres": "Heydi",
+        "Personas": 1,
+        "Contacto": "Kandy"
+    }
+
+]
