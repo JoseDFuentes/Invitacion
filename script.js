@@ -28,7 +28,15 @@ async function init() {
         if (currentIndex > 0) {
             updateImagePosition(currentIndex, currentIndex-1);
             currentIndex--;
+            if (nextBtn.style.visibility = 'hidden') {
+                nextBtn.style.visibility = 'visible';
+            }
+
+
+        } else {
+            prevBtn.style.visibility = 'hidden';
         }
+        
     });
     
     nextBtn.addEventListener('click', () => {
@@ -37,25 +45,25 @@ async function init() {
         if (currentIndex < imgs.length - 1) {
             updateImagePosition(currentIndex, currentIndex+1);
             currentIndex++;
+            
+            if (prevBtn.style.visibility = 'hidden') {
+                prevBtn.style.visibility = 'visible';
+            }
+
+
+        } else {
+            nextBtn.style.visibility = 'hidden';
         }
     });
-
-    
-    
 
     
 };
 
 
 
-function setWhatsappHref()
-{
-
-}
 
 function updateImagePosition(curPosition, newPosition) {
-    console.log(imgs[curPosition]);
-    console.log(imgs[newPosition]);
+
     imgs[curPosition].classList.add("img-hidden");
     imgs[curPosition].classList.remove("img-show");
     
