@@ -168,27 +168,6 @@ main {
     background-image: url(./assets/icons/right-arrow.png);
 }
 
-.main-schedule-container .main-schedule--title .main-schedule--imgs .img-move1 {
-    animation: moveSlideshow 12s linear infinite;
-}
-
-.main-schedule-container .main-schedule--title .main-schedule--imgs .img-move2 {
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
-    background-position: 0 -200px;
-    animation: moveSlideshow 15s linear infinite;
-}
-
-.main-schedule--title .main-schedule--imgs:hover .img-move2 {
-    opacity: 1;
-}
-
-
-@keyframes moveSlideshow {
-    100% { 
-      transform: translateX(-66.6666%);  
-    }
-  }
 
 .main-schedule-container .main-schedule--body{
     padding-top: 40px;
@@ -258,7 +237,7 @@ main {
     background-repeat: no-repeat;
 }
 
-.main-invitationCard-container .location-ceremony {
+.main-invitationCard-container .location {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -268,18 +247,19 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
+    /*animation: location-indicator 10s ease;*/
 }
 
-.main-invitationCard-container .location-party {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-top: 15px;
-    background-image: url('./assets/icons/location-ico.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
+@keyframes location-indicator {
+    0% {
+        padding-bottom: 0px;
+    }
+    50% {
+        padding-bottom: 10px;
+    }
+    100% {
+        padding-bottom: 0px;
+    }
 }
 
 .main-invitationCard-container .invitation-card--title{
