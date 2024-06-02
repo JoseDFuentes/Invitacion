@@ -29,7 +29,7 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 600px;
+    height: auto;
     text-align: center;
     background: linear-gradient(360deg, var(--medium-dark-green) 16.69%, var(--dark-green) 100%);
 }
@@ -323,7 +323,7 @@ main {
     padding: 15px;
     background-color: #C7AD93;
     border-radius: 10px;
-    min-width: 288px;
+    min-width: 160px;
     max-width: 320px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.16);   
 }
