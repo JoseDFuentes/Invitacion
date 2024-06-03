@@ -24,9 +24,9 @@ html {
 
 .header--title--container {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+    /*flex-direction:column;*/
+    /*justify-content: center;*/
     width: 100%;
     min-width: 320px;
     height: auto;
@@ -34,11 +34,25 @@ html {
     background: linear-gradient(360deg, var(--medium-dark-green) 16.69%, var(--dark-green) 100%);
 }
 
-header img {
+header .header-corner-up {
+    width: 10%;
+    max-width: 300px;
+    align-self: left;
+    
+}
+
+header .header-portrait {
     width: 50%;
     max-width: 300px;
     margin-top: 60px;
     align-self: center;
+    
+}
+
+header .header-corner-down {
+    width: 10%;
+    max-width: 300px;
+    align-self: right;
     
 }
 
