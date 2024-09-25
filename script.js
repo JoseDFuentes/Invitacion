@@ -1,7 +1,16 @@
 //import {db} from './db.js';
 
-let locationIcon = document.querySelector(".location-ceremony");
-let locationIconParty = document.querySelector(".location-party");
+//let locationIcon = document.querySelector(".location-ceremony");
+//let locationIconParty = document.querySelector(".location-party");
+
+const locationCeremonyGmaps = document.querySelector(".gmap-ceremony");
+const locationCeremonyWaze = document.querySelector(".waze-ceremony");
+
+const locationPartyGmaps = document.querySelector(".gmap-party");
+const locationPartyWaze = document.querySelector(".waze-party");
+
+const parkingCeremony = document.querySelector(".parking-ceremony");
+
 let invitadoEncabezado = document.querySelector(".header--guess");
 const imgContainer = document.querySelector('.main-schedule--imgs');
 const imgs = document.querySelectorAll(".img-slide");
@@ -17,12 +26,23 @@ let invitadoSeleccionado;
 document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
-    locationIcon.addEventListener('click', () => openLocation(14.9659009,-91.7768513)); //window.location.href = "https://maps.app.goo.gl/AXUpL6tafX7AVY7e6");
-    locationIconParty.addEventListener('click', () => openLocation(14.9663375,-91.7836988));//window.location.href = "https://maps.app.goo.gl/6VmP8dWQTZ9AycQe6");
+    
+    locationCeremonyGmaps.addEventListener('click', () => window.location.href = "https://maps.app.goo.gl/tdo9c1r4yYE95EcH9");
+    locationPartyGmaps.addEventListener('click', () => window.location.href = "https://maps.app.goo.gl/6VmP8dWQTZ9AycQe6");
+
+    locationCeremonyWaze.addEventListener('click', () => { 
+        console.log("clic location ceremony waze");
+        window.location.href = "https://www.waze.com/ul/h9fwtps3zj"
+    });
+    locationPartyWaze.addEventListener('click', () => window.location.href = "https://waze.com/ul/h9fwtpkt0j");
+
+    parkingCeremony.addEventListener('click', () => window.location.href = "./assets/img/parking.png")
+
+
     await colocarNombreInvitado();
     await colocarTextoConfirmacion();
     //obtenerDatosDB();
-
+    reveal();
     prevBtn.addEventListener('click', () => {
         console.log(currentIndex);
         if (currentIndex > 0) {
@@ -77,6 +97,20 @@ function updateImagePosition(curPosition, newPosition) {
 }
 
 
+function reveal() {
+    var reveals = document.querySelectorAll(".location");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("bounce2");
+      } else {
+        reveals[i].classList.remove("bounce2");
+      }
+    }
+  }
+
 
 
 async function obtenerDatosDB() {
@@ -116,8 +150,17 @@ function openLocation(latitude, longitude) {
 
 async function colocarTextoConfirmacion() {
 
+
+    if (invitadoSeleccionado == null) {
+        invitadoSeleccionado = {
+            Contacto: "Jose",
+            Personas: 1,
+            Nombres: "[Tu Nombre]"
+        }
+    }
+
     confirmacionTexto.textContent = `Agradecemos que puedas confirmar tu asistencia a ${invitadoSeleccionado.Contacto}, enviando un mensaje`;
-    const num2Conf = invitadoSeleccionado.Contacto == "Jose" ? "50252386656" : "50236671884";
+    const num2Conf = invitadoSeleccionado.Contacto == "Jose" ? "50252386656" : "50244866938";
 
     const hiPrefix = invitadoSeleccionado.Personas > 1 ? "te+saludan" : "te+saluda";
     const hiConfPrefix = invitadoSeleccionado.Personas > 1 ? "queriamos+confirmar+nuestra" : "queria+confirmar+mi";
@@ -135,7 +178,7 @@ async function colocarNombreInvitado()
     const invitado = await obtenerInvitadoPorCodigo(codigoInvitado);
     let texto;
     if (typeof(invitado) == "undefined"){
-        texto = ", ¿Cómo estás?"
+        texto = "Hola, ¿Cómo estás?"
     }
     else
     {
@@ -144,7 +187,7 @@ async function colocarNombreInvitado()
 
     invitadoSeleccionado = invitado;
 
-    invitadoEncabezado.textContent = `Hola ${texto}`;
+    invitadoEncabezado.textContent = `${texto}`;
     
 
 }

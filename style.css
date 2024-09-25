@@ -31,13 +31,15 @@ html {
     min-width: 320px;
     height: auto;
     text-align: center;
-    background: linear-gradient(360deg, var(--medium-dark-green) 16.69%, var(--dark-green) 100%);
+    background-color: var(--sa);
+    /*background: linear-gradient(360deg, var(--medium-dark-green) 16.69%, var(--dark-green) 100%);*/
 }
 
 header img {
-    width: 50%;
+    width: 80%;
     max-width: 300px;
-    margin-top: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     align-self: center;
     
 }
@@ -46,10 +48,11 @@ header img {
     font-family: "Great Vibes", cursive;
     font-size: 4rem;
     font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--just-white);
+    /*line-height: 2.6rem;*/
+    color: var(--sand-light);
     padding-top: 25px;
     padding-bottom: 25px;
+    background-color: var(--sand-dark);
 
 }
 
@@ -58,8 +61,9 @@ header img {
     font-size: 2rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color: var(--just-white);
+    color: var(--sand-light);
     padding-bottom: 20px;
+    background-color: var(--sand-dark);
 }
 
 main {
@@ -86,12 +90,22 @@ main {
     line-height: 2.6rem;
     font-weight: bold;
     font-size: 2.4rem;
+    color: var(--sand-dark);
 }
 
-.main-schedule-container .main-schedule--title p {
+.main-schedule-container .main-schedule--title #schedule-p {
+    line-height: 1.8rem;
+    padding: 4rem 3rem;
+    font-size: 1.6rem;
+    color: var(--sand-dark);
+}
+
+.main-schedule-greeting {
     line-height: 1.8rem;
     padding: 4rem 1rem;
-    font-size: 1.6rem;
+    font-size: 6rem;
+    font-family: "Great Vibes", cursive;
+    color: var(--sand-dark);
 }
 
 .main-slider-container {
@@ -170,7 +184,6 @@ main {
 
 
 .main-schedule-container .main-schedule--body{
-    padding-top: 40px;
     color: var(--sand-light);
     padding-bottom: 30px;
 }
@@ -217,7 +230,7 @@ main {
 .main-invitationCard-container .invitation-party--card {
     width: 80%;
     margin: 15px auto;
-    height: 300px;
+    height: 350px;
     padding: 15px;
     background-color: #C7AD93;
     border-radius: 10px;
@@ -237,6 +250,44 @@ main {
     background-repeat: no-repeat;
 }
 
+.main-invitationCard-container .gmap {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 25px;
+    background-image: url('./assets/icons/gmaps-ico.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-invitationCard-container .waze {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url('./assets/icons/waze-ico.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-invitationCard-container .parking {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 25px;
+    background-image: url('./assets/icons/parking-ico.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 .main-invitationCard-container .location {
     display: inline-block;
     width: 40px;
@@ -250,16 +301,14 @@ main {
     /*animation: location-indicator 10s ease;*/
 }
 
-@keyframes location-indicator {
-    0% {
-        padding-bottom: 0px;
-    }
-    50% {
-        padding-bottom: 10px;
-    }
-    100% {
-        padding-bottom: 0px;
-    }
+.bounce2 {
+    animation: bounce2 2s ease ;
+}
+
+@keyframes bounce2 {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-15px);}
+      60% {transform: translateY(-5px);}
 }
 
 .main-invitationCard-container .invitation-card--title{
@@ -288,7 +337,7 @@ main {
     color: var(--sand-dark);
 }
 
-.main-confirmation-whatsapp{
+.main-confirmation-whatsapp {
     display: inline-block;
     width: 120px;
     height: 120px;
@@ -348,6 +397,31 @@ main {
 
 .main-party-info-card .child {
     background-image: url('./assets/icons/child-icon-1.png');
+}
+
+.main-party-info-card .adult {
+    background-image: url('./assets/icons/adult-couple.png');
+}
+
+.main-party-info-card .gallery {
+    background-image: url('./assets/icons/gallery-icon.png');
+}
+
+.main-party-info-card .gallery-link {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 50px;
+    margin-top: 15px;
+    background-image: url('./assets/icons/camera-icon.png');
+    background-size:  contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:  var(--sand-light);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
 
