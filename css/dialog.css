@@ -1,0 +1,67 @@
+/* Estilos para el diálogo */
+.dialogo {
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el input de búsqueda */
+.input-busqueda {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el combobox */
+.combobox {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+/* Estilos para la botonera */
+.botonera {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-aceptar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-cancelar {
+    background-color: #f44336;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
