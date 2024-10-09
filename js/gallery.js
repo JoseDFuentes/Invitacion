@@ -82,18 +82,18 @@ function updateLightboxImage() {
     thumbnailContainer.innerHTML = '';
 
     // Add new thumbnails
-    images.forEach((image, index) => {
+    /*images.forEach((image, index) => {
         const thumbnail = document.createElement('img');
         thumbnail.src = image.src;
         thumbnail.alt = `Thumbnail ${index + 1}`;
         thumbnail.classList.add('thumbnail');
         thumbnail.addEventListener('click', () => updateMainImage(index));
         thumbnailContainer.appendChild(thumbnail);
-    });
+    });*/
 
     // Highlight the current thumbnail
-    const thumbnails = document.querySelectorAll('.thumbnail');
-    thumbnails[currentIndex].classList.add('active-thumbnail');
+    //const thumbnails = document.querySelectorAll('.thumbnail');
+    //thumbnails[currentIndex].classList.add('active-thumbnail');
 }
 
 // Update the main lightbox image when a thumbnail is clicked
