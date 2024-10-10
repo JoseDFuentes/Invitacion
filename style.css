@@ -31,7 +31,7 @@ html {
     min-width: 320px;
     height: auto;
     text-align: center;
-    background-color: var(--sa);
+    background-color: var(--sand-dark);
     /*background: linear-gradient(360deg, var(--medium-dark-green) 16.69%, var(--dark-green) 100%);*/
 }
 
@@ -47,7 +47,7 @@ header img {
 .header--title--container h1 {
     font-family: "Great Vibes", cursive;
     font-size: 4rem;
-    font-weight: bold;
+    font-weight:lighter;
     /*line-height: 2.6rem;*/
     color: var(--sand-light);
     padding-top: 25px;
@@ -59,7 +59,7 @@ header img {
 .header--title--container h2 {
     font-family: "Great Vibes", cursive;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: lighter;
     line-height: 2.6rem;
     color: var(--sand-light);
     padding-bottom: 20px;
@@ -87,13 +87,15 @@ main {
 }
 
 .main-schedule-container .main-schedule--title h2 {
-    line-height: 2.6rem;
+    font-family: "Great Vibes", cursive;
+    line-height: 3rem;
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 3rem;
     color: var(--sand-dark);
 }
 
 .main-schedule-container .main-schedule--title #schedule-p {
+    font-family: "Great Vibes", cursive;
     line-height: 1.8rem;
     padding: 4rem 3rem;
     font-size: 1.6rem;
