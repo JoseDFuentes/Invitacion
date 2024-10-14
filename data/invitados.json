@@ -1,521 +1,114 @@
 [
-    {
-            "Codigo": 1,
-            "Nombres": "Familia Cardona Gomez",
-            "Personas": 5,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 2,
-            "Nombres": "Luis Mazariegos",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 3,
-            "Nombres": "",
-            "Personas": 0,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 4,
-            "Nombres": "Familia Fuentes Gómez",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 5,
-            "Nombres": "Rocío Y Dulce",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 6,
-            "Nombres": "Familia Ramírez Gómez",
-            "Personas": 3,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 7,
-            "Nombres": "Familia Orozco Gómez",
-            "Personas": 3,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 8,
-            "Nombres": "Familia González Gómez",
-            "Personas": 3,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 9,
-            "Nombres": "Familia Gómez ",
-            "Personas": 5,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 10,
-            "Nombres": "Familia Gómez López",
-            "Personas": 5,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 11,
-            "Nombres": "Familia Fuentes Pérez",
-            "Personas": 5,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 12,
-            "Nombres": "Familia Fuentes Barrios",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 13,
-            "Nombres": "Dinael Fuentes Y Julissa Velásquez De Fuentes",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 14,
-            "Nombres": "Sra. Blanca Pérez",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 15,
-            "Nombres": "Ever Velásquez y Keily Ramírez de Velásquez",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 16,
-            "Nombres": "Sharon Y Mariano",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 17,
-            "Nombres": "Joel Guachiac",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 18,
-            "Nombres": "Helen Y Estuardo",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 19,
-            "Nombres": "Carol Gómez",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 20,
-            "Nombres": "Daniel Hernández Y Ana Zuñiga",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 21,
-            "Nombres": "Any y Josué",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 22,
-            "Nombres": "Kevin Mota",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 23,
-            "Nombres": "Pablo Y Karina",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 24,
-            "Nombres": "Jose Monterroso",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 25,
-            "Nombres": "Ale Maldonado",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 26,
-            "Nombres": "Vivian Y Rabel",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 27,
-            "Nombres": "Ceci Y Rodrigo",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 28,
-            "Nombres": "Luis Y Mishel",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 29,
-            "Nombres": "Paola Paz",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 30,
-            "Nombres": "Liseth García",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 31,
-            "Nombres": "Luis Fernando",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 32,
-            "Nombres": "Denis Y Sra***",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 33,
-            "Nombres": "Manuel Scott",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 34,
-            "Nombres": "Mercier De León",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 35,
-            "Nombres": "Lourdes González",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 36,
-            "Nombres": "Andrés ",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 37,
-            "Nombres": "Vivian Y Gustavo",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 38,
-            "Nombres": "Mafer Salán ",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 39,
-            "Nombres": "Carlos Y Magnolia",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 40,
-            "Nombres": "Nick Y Karina",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 41,
-            "Nombres": "Heidy",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 42,
-            "Nombres": "Fabi",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 43,
-            "Nombres": "Fernanda",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 44,
-            "Nombres": "Danilo",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 45,
-            "Nombres": "Estuardo Y Ale",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 46,
-            "Nombres": "Lisandro Y Sra",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 47,
-            "Nombres": "Ricardo",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 48,
-            "Nombres": "Maria Alejandra Y Ramiro",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 49,
-            "Nombres": "Selene Y Josué",
-            "Personas": 0,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 50,
-            "Nombres": "Polina Y Carlos",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 51,
-            "Nombres": "Gaby E Hija",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 52,
-            "Nombres": "Pao Y Jose",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 53,
-            "Nombres": "Keinner Y Karina",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 54,
-            "Nombres": "Dra Alba Pérez",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 55,
-            "Nombres": "Andrea Y Esposo",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 56,
-            "Nombres": "Marisa Y Ronaldo",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 57,
-            "Nombres": "Jimmy",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 58,
-            "Nombres": "Cristi",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 59,
-            "Nombres": "Yenifer",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 60,
-            "Nombres": "Harlem",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 61,
-            "Nombres": "Juan Luis",
-            "Personas": 1,
-            "Contacto": "Kandy"
-        },
-    {
-            "Codigo": 62,
-            "Nombres": "Luis",
-            "Personas": 2,
-            "Contacto": "Kandy"
-        }, {
-            "Codigo": 1001,
-            "Nombres": "Sra. Violeta López y familia",
-            "Personas": 4,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1002,
-            "Nombres": "Fer y Alejandro",
-            "Personas": 1,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1003,
-            "Nombres": "Chivi, Frank y los nenes",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1004,
-            "Nombres": "Rosmery López y Familia",
-            "Personas": 3,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1005,
-            "Nombres": "Belén López e hija",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1006,
-            "Nombres": "Familia Pérez López",
-            "Personas": 5,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1007,
-            "Nombres": "Sra. Gloria López",
-            "Personas": 1,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1008,
-            "Nombres": "Yojaira López y Ferrari Pérez",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1009,
-            "Nombres": "Carol López y Alfredo Fuentes",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1010,
-            "Nombres": "Karla López y Carlos Vásquez",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1011,
-            "Nombres": "Benjamín Monzón y Sra.",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1012,
-            "Nombres": "Flor López e hijo",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1013,
-            "Nombres": "Doña Rubí",
-            "Personas": 1,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1014,
-            "Nombres": "Doña Lidia y don Mario",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1015,
-            "Nombres": "Doña Gladis",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1016,
-            "Nombres": "",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1017,
-            "Nombres": "Gloria Ramírez",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1018,
-            "Nombres": "Chino Osward",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1019,
-            "Nombres": "Davidsin",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1020,
-            "Nombres": "Carlos Caxaj y Sra.",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1021,
-            "Nombres": "José Carlos y Lourdes",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1022,
-            "Nombres": "Irene Alejandra y Allan",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1023,
-            "Nombres": "Rodrigo y Claudia",
-            "Personas": 6,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1024,
-            "Nombres": "Antulio y Dunnia",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1025,
-            "Nombres": "",
-            "Personas": 9,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1026,
-            "Nombres": "Licda. Marisol Orozco",
-            "Personas": 2,
-            "Contacto": "Jose"
-        }, {
-            "Codigo": 1027,
-            "Nombres": "",
-            "Personas": 4,
-            "Contacto": "Jose"
-        },
-        {"Codigo": 1035, "Alias":"Patri", "Nombres": "Patricia Martínez","Personas": 0,"Telefonos":"506 8921 0811", "Contacto": "Jose"},
-        {"Codigo": 1036, "Alias":"Lady", "Nombres": "Lady Cossio","Personas": 0,"Telefonos":"506 8843 1368", "Contacto": "Jose"},
-        {"Codigo": 1037, "Alias":"César", "Nombres": "César Jiménez","Personas": 0,"Telefonos":"506 8552 3264", "Contacto": "Jose"},
-        {"Codigo": 1038, "Alias":"Jonathan", "Nombres": "Jonathan Corrales","Personas": 0,"Telefonos":"506 8729 0026", "Contacto": "Jose"},
-        {"Codigo": 1039, "Alias":"Fabián ", "Nombres": "Fabián Cuervo","Personas": 0,"Telefonos":"57 316 8512866", "Contacto": "Jose"},
-        {"Codigo": 1040, "Alias":"DAvid", "Nombres": "David Moreno","Personas": 0,"Telefonos":"57 316 4777292", "Contacto": "Jose"},
-        {"Codigo": 1041, "Alias":"Kevin", "Nombres": "Kevin Lizano","Personas": 0,"Telefonos":"506 8919 0621", "Contacto": "Jose"},
-        {"Codigo": 1042, "Alias":"Anthony", "Nombres": "Anthony Palavicini","Personas": 0,"Telefonos":"506 8735 1972", "Contacto": "Jose"},
-        {"Codigo": 1043, "Alias":"Freddy", "Nombres": "Freddy Fonseca","Personas": 0,"Telefonos":"506 7012 4631", "Contacto": "Jose"},
-        {"Codigo": 1044, "Alias":"Dani", "Nombres": "Daniela Flores Ellis","Personas": 0,"Telefonos":"506 7105 8115", "Contacto": "Jose"}
+    {"Codigo": 1, "Alias":"MAMA", "Nombres": "Familia Cardona Gómez","Personas": 5,"Telefonos":"502 47797951|502 55357800|502 55388978", "Contacto": "Kandy"},
+    {"Codigo": 2, "Alias":"LUIS MAZARIEGOS", "Nombres": "Luis Mazariegos","Personas": 1,"Telefonos":"502 55357800", "Contacto": "Kandy"},
+    {"Codigo": 4, "Alias":"TIA ORIS", "Nombres": "Familia Fuentes Gómez","Personas": 2,"Telefonos":"502 ", "Contacto": "Kandy"},
+    {"Codigo": 5, "Alias":"ROCIO", "Nombres": "Rocío y Dulce","Personas": 2,"Telefonos":"502 45046554|502 48972527", "Contacto": "Kandy"},
+    {"Codigo": 6, "Alias":"TIA THELMA", "Nombres": "Familia Ramírez Gómez","Personas": 3,"Telefonos":"502 42069133|502 47641393|502 58687350", "Contacto": "Kandy"},
+    {"Codigo": 7, "Alias":"TIA DALI", "Nombres": "Familia Orozco Gómez","Personas": 3,"Telefonos":"502 32951292", "Contacto": "Kandy"},
+    {"Codigo": 8, "Alias":"TIA CATA", "Nombres": "Familia González Gómez","Personas": 3,"Telefonos":"502 ", "Contacto": "Kandy"},
+    {"Codigo": 9, "Alias":"CASA ", "Nombres": "Familia Gómez","Personas": 5,"Telefonos":"502 ", "Contacto": "Kandy"},
+    {"Codigo": 10, "Alias":"TIO ERWIN", "Nombres": "Familia Gómez López","Personas": 5,"Telefonos":"502 53446737|502 59922381", "Contacto": "Kandy"},
+    {"Codigo": 11, "Alias":"PRIMO KELLER", "Nombres": "Familia Fuentes Pérez","Personas": 5,"Telefonos":"502 58964683|502 33027785|502 42223797", "Contacto": "Kandy"},
+    {"Codigo": 12, "Alias":"PRIMO LUIS", "Nombres": "Familia Fuentes Barrios","Personas": 2,"Telefonos":"502 48823883", "Contacto": "Kandy"},
+    {"Codigo": 13, "Alias":"DINAEL", "Nombres": "Familia Fuentes Velásquez","Personas": 2,"Telefonos":"502 55326752|502 56964551", "Contacto": "Kandy"},
+    {"Codigo": 14, "Alias":"TIA BLANCA", "Nombres": "Sra. Blanca Pérez","Personas": 1,"Telefonos":"502 55810185", "Contacto": "Kandy"},
+    {"Codigo": 15, "Alias":"PRIMA VANESSA", "Nombres": "Familia Velásquez Ramírez","Personas": 2,"Telefonos":"502 53481200|502 59431896", "Contacto": "Kandy"},
+    {"Codigo": 16, "Alias":"SHARON", "Nombres": "Sharon y Mariano","Personas": 2,"Telefonos":"502 41621915", "Contacto": "Kandy"},
+    {"Codigo": 17, "Alias":"JOELITO", "Nombres": "Joel Guachiac","Personas": 2,"Telefonos":"502 58354216", "Contacto": "Kandy"},
+    {"Codigo": 18, "Alias":"**HELEN", "Nombres": "Helen y Estuardo","Personas": 2,"Telefonos":"502 58445661", "Contacto": "Kandy"},
+    {"Codigo": 19, "Alias":"SOEIDY CAROLINA", "Nombres": "Carol Gómez","Personas": 1,"Telefonos":"502 32701670", "Contacto": "Kandy"},
+    {"Codigo": 20, "Alias":"**ARQ DANIEL", "Nombres": "Daniel Hernández y Ana Zúñiga","Personas": 2,"Telefonos":"502 55750795|502 42144208", "Contacto": "Kandy"},
+    {"Codigo": 21, "Alias":"ARQ ANY", "Nombres": "Ana García y Josué Herrera","Personas": 2,"Telefonos":"502 43981933", "Contacto": "Kandy"},
+    {"Codigo": 22, "Alias":"ARQ KEVIN", "Nombres": "Kevin Mota","Personas": 1,"Telefonos":"502 33264614", "Contacto": "Kandy"},
+    {"Codigo": 23, "Alias":"ARQ PABLO", "Nombres": "Pablo Barreno","Personas": 2,"Telefonos":"502 59239326", "Contacto": "Kandy"},
+    {"Codigo": 24, "Alias":"ARQ JOSE", "Nombres": "Jose Monterroso","Personas": 1,"Telefonos":"502 54915160", "Contacto": "Kandy"},
+    {"Codigo": 25, "Alias":"Arq. Ale", "Nombres": "Ale Maldonado","Personas": 1,"Telefonos":"502 55749937", "Contacto": "Kandy"},
+    {"Codigo": 26, "Alias":"VIVI OROZCO", "Nombres": "Vivian y Rabel","Personas": 2,"Telefonos":"502 54970146", "Contacto": "Kandy"},
+    {"Codigo": 27, "Alias":"**CECI", "Nombres": "Ceci y Rodrigo","Personas": 2,"Telefonos":"502 46979386", "Contacto": "Kandy"},
+    {"Codigo": 28, "Alias":"MISHEL", "Nombres": "Luis y Mishel","Personas": 2,"Telefonos":"502 56920006", "Contacto": "Kandy"},
+    {"Codigo": 29, "Alias":"PAOLA", "Nombres": "Paola Paz","Personas": 1,"Telefonos":"502 56196342", "Contacto": "Kandy"},
+    {"Codigo": 30, "Alias":"LISET", "Nombres": "Liseth García","Personas": 1,"Telefonos":"502 53118033", "Contacto": "Kandy"},
+    {"Codigo": 31, "Alias":"LUIS FERNANDO", "Nombres": "Luis Fernando","Personas": 1,"Telefonos":"502 58652087", "Contacto": "Kandy"},
+    {"Codigo": 32, "Alias":"DENIS", "Nombres": "Denis y Sra","Personas": 2,"Telefonos":"502 47756180", "Contacto": "Kandy"},
+    {"Codigo": 33, "Alias":"PROFE MANUEL", "Nombres": "Manuel Scott","Personas": 1,"Telefonos":"502 46172120", "Contacto": "Kandy"},
+    {"Codigo": 34, "Alias":"MERCIER", "Nombres": "Mercier De León","Personas": 1,"Telefonos":"502 36750128", "Contacto": "Kandy"},
+    {"Codigo": 35, "Alias":"LOURDES", "Nombres": "Lourdes González","Personas": 1,"Telefonos":"502 45004550", "Contacto": "Kandy"},
+    {"Codigo": 36, "Alias":"ANDRES", "Nombres": "Andrés Alvarado","Personas": 1,"Telefonos":"502 56923984", "Contacto": "Kandy"},
+    {"Codigo": 37, "Alias":"VIVI GONZALEZ", "Nombres": "Vivian y Gustavo","Personas": 2,"Telefonos":"502 47696213", "Contacto": "Kandy"},
+    {"Codigo": 38, "Alias":"MAFER", "Nombres": "Mafer Salán ","Personas": 2,"Telefonos":"502 42141513", "Contacto": "Kandy"},
+    {"Codigo": 39, "Alias":"CARLOS y MAGNOLIA", "Nombres": "Carlos y Magnolia","Personas": 2,"Telefonos":"502 42605588", "Contacto": "Kandy"},
+    {"Codigo": 40, "Alias":"KARINA Y NICK", "Nombres": "Nick y Karina","Personas": 2,"Telefonos":"502 42907283", "Contacto": "Kandy"},
+    {"Codigo": 41, "Alias":"HEIDY", "Nombres": "Heidy De Leon","Personas": 1,"Telefonos":"502 56941220", "Contacto": "Kandy"},
+    {"Codigo": 42, "Alias":"FABI", "Nombres": "Fabi  Roblero","Personas": 1,"Telefonos":"502 59061202", "Contacto": "Kandy"},
+    {"Codigo": 43, "Alias":"FERNANDA", "Nombres": "Fernanda Cajas","Personas": 1,"Telefonos":"502 58381720", "Contacto": "Kandy"},
+    {"Codigo": 44, "Alias":"DANILO", "Nombres": "Danilo Solórzano","Personas": 1,"Telefonos":"502 40193026", "Contacto": "Kandy"},
+    {"Codigo": 45, "Alias":"ESTUARDO Y ALE", "Nombres": "Estuardo y Ale","Personas": 2,"Telefonos":"502 58537581|502 56238095", "Contacto": "Kandy"},
+    {"Codigo": 46, "Alias":"**LISANDRO", "Nombres": "Lisandro y Sra","Personas": 2,"Telefonos":"502 37648687", "Contacto": "Kandy"},
+    {"Codigo": 47, "Alias":"TAU", "Nombres": "Ricardo Bautista ","Personas": 1,"Telefonos":"502 45629981", "Contacto": "Kandy"},
+    {"Codigo": 48, "Alias":"MARIA ALEJANDRA", "Nombres": "Maria Alejandra y Ramiro","Personas": 2,"Telefonos":"502 55973951", "Contacto": "Kandy"},
+    {"Codigo": 49, "Alias":"**SELENE", "Nombres": "Selene y Josué","Personas": 0,"Telefonos":"502 56941684", "Contacto": "Kandy"},
+    {"Codigo": 50, "Alias":"**POLINA", "Nombres": "Polina y Carlos","Personas": 2,"Telefonos":"502 47523648", "Contacto": "Kandy"},
+    {"Codigo": 51, "Alias":"GABY", "Nombres": "Gaby e hija","Personas": 2,"Telefonos":"502 55565339", "Contacto": "Kandy"},
+    {"Codigo": 52, "Alias":"PAO Y JOSE", "Nombres": "Pao y Jose","Personas": 2,"Telefonos":"502 58343396", "Contacto": "Kandy"},
+    {"Codigo": 53, "Alias":"KEINNER Y KARINA", "Nombres": "Keinner y Karina","Personas": 2,"Telefonos":"502 51203954", "Contacto": "Kandy"},
+    {"Codigo": 54, "Alias":"DRA ALBA", "Nombres": "Dra Alba Pérez","Personas": 2,"Telefonos":"502 36179872", "Contacto": "Kandy"},
+    {"Codigo": 55, "Alias":"ANDREA", "Nombres": "Andrea y esposo","Personas": 2,"Telefonos":"502 51709846", "Contacto": "Kandy"},
+    {"Codigo": 56, "Alias":"MARISA", "Nombres": "Marisa y Ronaldo","Personas": 2,"Telefonos":"502 54998966", "Contacto": "Kandy"},
+    {"Codigo": 57, "Alias":"JIMMY", "Nombres": "Jimmy Fuentes","Personas": 1,"Telefonos":"502 55141214", "Contacto": "Kandy"},
+    {"Codigo": 58, "Alias":"CRISTI", "Nombres": "Cristy De Leon","Personas": 1,"Telefonos":"502 54610669|502 47067234", "Contacto": "Kandy"},
+    {"Codigo": 59, "Alias":"YENIFER", "Nombres": "Yenifer Velasquez ","Personas": 1,"Telefonos":"502 50883600", "Contacto": "Kandy"},
+    {"Codigo": 60, "Alias":"**HARLEM", "Nombres": "Harlem De Leon","Personas": 1,"Telefonos":"502 59677706", "Contacto": "Kandy"},
+    {"Codigo": 61, "Alias":"**JUAN LUIS", "Nombres": "Juan Luis","Personas": 1,"Telefonos":"502 55890498", "Contacto": "Kandy"},
+    {"Codigo": 62, "Alias":"Sor carolina ", "Nombres": "Sor Carolina Martinez","Personas": 1,"Telefonos":"502 58840269", "Contacto": "Kandy"},
+    {"Codigo": 63, "Alias":"Diana Valdez ", "Nombres": "Diana Valdez","Personas": 1,"Telefonos":"502 46146584", "Contacto": "Kandy"},
+    {"Codigo": 64, "Alias":"Marta Zulema", "Nombres": "Marta Zulema","Personas": 1,"Telefonos":"502 33234216", "Contacto": "Kandy"},
+    {"Codigo": 65, "Alias":"Ana Luisa ", "Nombres": "Ana Luisa","Personas": 1,"Telefonos":"502 59517211", "Contacto": "Kandy"},
+    {"Codigo": 66, "Alias":"**CUCARACHO", "Nombres": "Luis Alberto","Personas": 2,"Telefonos":"502 31615398", "Contacto": "Kandy"},
     
+    {"Codigo": 1001, "Alias":"MAMA", "Nombres": "Sra. Violeta López y familia","Personas": 4,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1002, "Alias":"FER", "Nombres": "Fer y Alejandro","Personas": 2,"Telefonos":"502 41493524", "Contacto": "Jose"},
+    {"Codigo": 1003, "Alias":"CHIVI", "Nombres": "Chivi, Frank y los nenes","Personas": 2,"Telefonos":"502 51285144|502 56923056", "Contacto": "Jose"},
+    {"Codigo": 1004, "Alias":"TIA ROSMERY", "Nombres": "Rosmery López y Familia","Personas": 3,"Telefonos":"502 4121 1015", "Contacto": "Jose"},
+    {"Codigo": 1005, "Alias":"BELEN", "Nombres": "Belén López e hija","Personas": 2,"Telefonos":"502 4728 7256", "Contacto": "Jose"},
+    {"Codigo": 1006, "Alias":"TIA MARY", "Nombres": "Familia Pérez López","Personas": 5,"Telefonos":"502 5838 3687", "Contacto": "Jose"},
+    {"Codigo": 1007, "Alias":"TIA GLORIA", "Nombres": "Sra. Gloria López","Personas": 1,"Telefonos":"502 3774 4583", "Contacto": "Jose"},
+    {"Codigo": 1008, "Alias":"YOJAIRA", "Nombres": "Familia Pérez López","Personas": 3,"Telefonos":"502 4143 6697", "Contacto": "Jose"},
+    {"Codigo": 1009, "Alias":"CAROLA", "Nombres": "Familia Fuentes López","Personas": 4,"Telefonos":"502 3603 8514", "Contacto": "Jose"},
+    {"Codigo": 1010, "Alias":"KARLA", "Nombres": "Familia Vásquez López","Personas": 2,"Telefonos":"502 4249 5870|502 5469 4364", "Contacto": "Jose"},
+    {"Codigo": 1011, "Alias":"TIO MINCHO", "Nombres": "Benjamín Monzón y Sra.","Personas": 2,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1012, "Alias":"TIA FLOR", "Nombres": "Flor López e hijo","Personas": 2,"Telefonos":"502 5823 9629|502 5922 8301", "Contacto": "Jose"},
+    {"Codigo": 1013, "Alias":"DOÑA RUBI", "Nombres": "Doña Rubí","Personas": 1,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1014, "Alias":"DOÑA LIDIA", "Nombres": "Doña Lidia y don Mario","Personas": 2,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1015, "Alias":"DOÑA GLADIS", "Nombres": "Doña Gladis","Personas": 1,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1016, "Alias":"CHAITO ", "Nombres": "","Personas": 2,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1017, "Alias":"SEÑO GLORIA", "Nombres": "Gloria Ramírez","Personas": 2,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1018, "Alias":"CHINO", "Nombres": "Chino Osward","Personas": 2,"Telefonos":"502 41220403", "Contacto": "Jose"},
+    {"Codigo": 1019, "Alias":"DAVID", "Nombres": "Davidsin","Personas": 2,"Telefonos":"502 54444599", "Contacto": "Jose"},
+    {"Codigo": 1020, "Alias":"**CAXAJ", "Nombres": "Carlos Caxaj y Sra.","Personas": 0,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1021, "Alias":"CASPER", "Nombres": "José Carlos y Lourdes","Personas": 2,"Telefonos":"502 54898862", "Contacto": "Jose"},
+    {"Codigo": 1022, "Alias":"IRENE ALE", "Nombres": "Irene Alejandra y Allan","Personas": 2,"Telefonos":"502 34948849", "Contacto": "Jose"},
+    {"Codigo": 1023, "Alias":"RODRIGO", "Nombres": "Rodrigo y Claudia","Personas": 6,"Telefonos":"502 55163760", "Contacto": "Jose"},
+    {"Codigo": 1024, "Alias":"TULO", "Nombres": "Antulio y Dunnia","Personas": 2,"Telefonos":"502 50194704", "Contacto": "Jose"},
+    {"Codigo": 1025, "Alias":"CADENCIA", "Nombres": "","Personas": 9,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1026, "Alias":"**MADRINA", "Nombres": "Licda. Marisol Orozco","Personas": 2,"Telefonos":"502 47681716", "Contacto": "Jose"},
+    {"Codigo": 1027, "Alias":"TIA LETY", "Nombres": "Lety López y familia","Personas": 4,"Telefonos":"502 41172362|502 55667082", "Contacto": "Jose"},
+    {"Codigo": 1028, "Alias":"DON CARLOS", "Nombres": "","Personas": 2,"Telefonos":"502 49825258", "Contacto": "Jose"},
+    {"Codigo": 1029, "Alias":"DOÑA AUDELINA", "Nombres": "","Personas": 2,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1030, "Alias":"VERONICA", "Nombres": "","Personas": 2,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1031, "Alias":"TIA JUANA", "Nombres": "","Personas": 2,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1032, "Alias":"TIA AUDE", "Nombres": "","Personas": 2,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1033, "Alias":"TIO NEFTALÍ", "Nombres": "","Personas": 2,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1034, "Alias":"TIO HORACIO", "Nombres": "","Personas": 2,"Telefonos":"502 ", "Contacto": "Jose"},
+    {"Codigo": 1035, "Alias":"Patri", "Nombres": "Patricia Martínez","Personas": 0,"Telefonos":"506 8921 0811", "Contacto": "Jose"},
+    {"Codigo": 1036, "Alias":"Lady", "Nombres": "Lady Cossio","Personas": 0,"Telefonos":"506 8843 1368", "Contacto": "Jose"},
+    {"Codigo": 1037, "Alias":"César", "Nombres": "César Jiménez","Personas": 0,"Telefonos":"506 8552 3264", "Contacto": "Jose"},
+    {"Codigo": 1038, "Alias":"Jonathan", "Nombres": "Jonathan Corrales","Personas": 0,"Telefonos":"506 8729 0026", "Contacto": "Jose"},
+    {"Codigo": 1039, "Alias":"Fabián ", "Nombres": "Fabián Cuervo","Personas": 0,"Telefonos":"57 316 8512866", "Contacto": "Jose"},
+    {"Codigo": 1040, "Alias":"DAvid", "Nombres": "David Moreno","Personas": 0,"Telefonos":"57 316 4777292", "Contacto": "Jose"},
+    {"Codigo": 1041, "Alias":"Kevin", "Nombres": "Kevin Lizano","Personas": 0,"Telefonos":"506 8919 0621", "Contacto": "Jose"},
+    {"Codigo": 1042, "Alias":"Anthony", "Nombres": "Anthony Palavicini","Personas": 0,"Telefonos":"506 8735 1972", "Contacto": "Jose"},
+    {"Codigo": 1043, "Alias":"Freddy", "Nombres": "Freddy Fonseca","Personas": 0,"Telefonos":"506 7012 4631", "Contacto": "Jose"},
+    {"Codigo": 1044, "Alias":"Dani", "Nombres": "Daniela Flores Ellis","Personas": 0,"Telefonos":"506 7105 8115", "Contacto": "Jose"}
+ 
 ]
     
