@@ -64,6 +64,7 @@
     {"Codigo": 64, "Alias":"Marta Zulema", "Nombres": "Marta Zulema","Personas": 1,"Telefonos":"502 33234216", "Contacto": "Kandy"},
     {"Codigo": 65, "Alias":"Ana Luisa ", "Nombres": "Ana Luisa","Personas": 1,"Telefonos":"502 59517211", "Contacto": "Kandy"},
     {"Codigo": 66, "Alias":"**CUCARACHO", "Nombres": "Luis Alberto","Personas": 2,"Telefonos":"502 31615398", "Contacto": "Kandy"},
+    {"Codigo": 67, "Alias":"JURANDIR", "Nombres": "Jurandir","Personas": 1,"Telefonos":"502 3576 6505", "Contacto": "Kandy"},
     
     {"Codigo": 1001, "Alias":"MAMA", "Nombres": "Sra. Violeta López y familia","Personas": 4,"Telefonos":"502 ", "Contacto": "Jose"},
     {"Codigo": 1002, "Alias":"FER", "Nombres": "Fer y Alejandro","Personas": 2,"Telefonos":"502 41493524", "Contacto": "Jose"},
